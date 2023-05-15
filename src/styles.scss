@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary: #58508f !default;
+$secondary: #847abf !default;
+$tertiary: #c3c2f2 !default;
+$quaternary: #d6d5f2 !default;
+$quinary: #f2f2dd !default;
+
+$background-main: #ffffff !default;
+
+$text-main: #181818 !default;
+
+html,
+body {
+  height: 100%;
+  background-color: $background-main;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+}
+* {
+  font-family: Caveat, sans-serif !important;
+}

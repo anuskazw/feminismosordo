@@ -1,0 +1,27 @@
+@import "./../../../../styles.scss";
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.background {
+  background-color: $primary;
+  height: 40px;
+  width: 100%;
+  &-2 {
+    background-color: $secondary;
+    height: 40px;
+  }
+  &-3 {
+    background-color: $tertiary;
+    height: 40px;
+  }
+  &-4 {
+    background-color: $quaternary;
+    height: 40px;
+  }
+  &-5 {
+    background-color: $quinary;
+    height: 40px;
+  }
+}

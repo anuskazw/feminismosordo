@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'triangula-difusa-2023';
+  showNav = true;
 }

@@ -1,0 +1,16 @@
+@import "./../../styles/variables/colors.scss";
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+}
+
+section {
+  padding: 10px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
