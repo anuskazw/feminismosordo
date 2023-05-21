@@ -1,0 +1,38 @@
+@import './../../../styles/variables/colors.scss';
+
+.card{
+  border-radius: 1rem;
+  border: 1px $quaternary solid;
+  background-color: $background-main;
+  padding: 1rem;
+  height: 60px;
+}
+
+.float{
+  transition: .5s, color .10s;
+  -webkit-transition: .5s, color .10s;
+  -moz-transition: .5s, color .10s;
+}
+.float:hover{
+  box-shadow: 0 8px 8px 0 gray,0 8px 8px 0 lightgray;
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  -moz-transform:translate(0px,5px);
+}
+
+
+
+
+// https://github.com/argyleink/transition.css#custom
+@keyframes wipe-in-right {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:right"] {
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-right both;
+}

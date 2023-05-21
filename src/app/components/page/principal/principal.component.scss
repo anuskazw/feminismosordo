@@ -1,0 +1,17 @@
+@import "./../../../styles/variables/colors.scss";
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+}
+
+section {
+  padding: 10px;
+  width: auto;
+  display: grid;
+  grid-auto-rows: 3;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px;
+}

@@ -1,0 +1,17 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 361px,
+  md: 835px,
+  lg: 1281px,
+  xl: 1441px
+);
+
+$container-max-widths: (
+  xs: 360px,
+  sm: 575px,
+  md: 834px,
+  lg: 1280px,
+  xl: 1440px
+);
+
+@import "~bootstrap/scss/bootstrap";
