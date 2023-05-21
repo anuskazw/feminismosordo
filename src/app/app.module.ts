@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/atomic/card/card.component';
 import { LogoComponent } from './components/atomic/logo/logo.component';
 import { TestComponentsComponent } from './components/molecule/test-components/test-components.component';
-import { PrincipalComponent } from './page/principal/principal.component';
-import { TestComponent } from './page/test/test.component';
+import { PrincipalComponent } from './components/page/principal/principal.component';
+import { TestComponent } from './components/page/test/test.component';
 import { NavComponent } from './components/atomic/nav/nav.component';
 
 @NgModule({
