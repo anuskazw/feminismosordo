@@ -10,6 +10,13 @@ import { TestComponentsComponent } from './components/molecule/test-components/t
 import { PrincipalComponent } from './components/page/principal/principal.component';
 import { TestComponent } from './components/page/test/test.component';
 import { NavComponent } from './components/atomic/nav/nav.component';
+import { ReelsComponent } from './components/molecule/reels/reels.component';
+import { HistoriaComponent } from './components/page/historia/historia.component';
+import { ConceptosComponent } from './components/page/conceptos/conceptos.component';
+import { ViolenciaComponent } from './components/page/violencia/violencia.component';
+import { RecursosComponent } from './components/page/recursos/recursos.component';
+import { EncuentrosComponent } from './components/page/encuentros/encuentros.component';
+import { ProyectosComponent } from './components/page/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { NavComponent } from './components/atomic/nav/nav.component';
     TestComponentsComponent,
     PrincipalComponent,
     TestComponent,
-    NavComponent
+    NavComponent,
+    ReelsComponent,
+    HistoriaComponent,
+    ConceptosComponent,
+    ViolenciaComponent,
+    RecursosComponent,
+    EncuentrosComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
