@@ -1,16 +1,13 @@
-<div class="app">
+<header>
+  <h1> Feminismo sordo </h1>
+</header>
 
-  <header>
-    <h1> Logo </h1>
-  </header>
+<!-- <app-nav *ngIf={showNav}></app-nav> -->
 
-  <app-nav *ngIf={showNav}></app-nav>
-
-  <div class="body">
-    <aside> aside </aside>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
-  </div>
-
+<div class="body">
+  <!-- <aside> aside </aside> -->
+  <main>
+    <i class="bi bi-arrow-left-square-fill"></i>
+    <router-outlet></router-outlet>
+  </main>
 </div>
