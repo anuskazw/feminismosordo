@@ -1,10 +1,28 @@
-<section>
+<section class="container mt-5">
 
-  <a routerLink="/historia"><app-card> Historia </app-card></a>
-  <a routerLink="/conceptos"><app-card> Conceptos </app-card></a>
-  <a routerLink="/violencia"><app-card> Violencia </app-card></a>
-  <a routerLink="/recursos-y-materiales"><app-card> Recursos y materiales </app-card></a>
-  <a routerLink="/encuentros-feministas"><app-card> Encuentros feministas </app-card></a>
-  <a routerLink="/proyectos"><app-card> Proyectos </app-card></a>
-
+  <a routerLink="/historia">
+    <app-card [titulo]="'Historia'">
+      <div class="image" id="historia"></div>
+    </app-card>
+  </a>
+  <a routerLink="/conceptos">
+    <app-card [titulo]="'Conceptos'">
+      <div class="image" id="conceptos"></div>
+    </app-card>
+  </a>
+  <a routerLink="/violencia">
+    <app-card [titulo]="'Violencia'">
+      <div class="image" id="violencia"></div>
+    </app-card></a>
+  <a routerLink="/recursos-y-materiales">
+    <app-card [titulo]="'Recursos y materiales'">
+      <div class="image" id="recursos"></div>
+    </app-card></a>
+  <a routerLink="/encuentros-feministas">
+    <app-card [titulo]="'Encuentros feministas'">
+      <div class="image" id="encuentros"></div>
+    </app-card></a>
+  <a routerLink="/proyectos"><app-card [titulo]="'Proyectos'">
+      <div class="image" id="proyectos"></div>
+    </app-card></a>
 </section>

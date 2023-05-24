@@ -1,6 +1,5 @@
 @import "./../../../styles/variables/colors.scss";
 
-
 header {
   display: flex;
   flex-direction: column;
@@ -13,10 +12,78 @@ section {
   display: grid;
   grid-auto-rows: 3;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
-a{
-  color: black!important;
-  text-decoration: none!important;
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+a div.image{
+  height:100%;
+  width:100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.5;
+  filter: grayscale(50%);
+
+  &:hover{
+    background-size: cover;
+    background-position:center;
+    filter: grayscale(0%);
+    opacity: 1;
+  }
+  // historia
+  &#historia {
+    background-image: url("https://i0.wp.com/conversacionsobrehistoria.info/wp-content/uploads/2021/10/Foto-Editorial1.png?fit=932%2C600&ssl=1");
+    // background-image: url("../../../../assets/sonrisa.jpeg");
+  }
+  &#historia:hover {
+    background-image: url("https://media.giphy.com/media/ilyluIFwD2Et5X5hzF/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
+  // conceptos
+  &#conceptos {
+    background-image: url("https://img.freepik.com/vector-gratis/concepto-pensar-flat_23-2148163131.jpg?w=2000");
+    // background-image: url("../../../../assets/sonrisa.jpeg");
+  }
+  &#conceptos:hover {
+    background-image: url("https://media.giphy.com/media/oisFq1HcBJ1FkEWG5o/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
+  // violencia
+  &#violencia {
+    background-image: url("https://static2.mujerhoy.com/www/multimedia/202011/25/media/cortadas/violencia-machista-coronavirus-violencia-genero-kPd-U120868680861H1B-624x468@MujerHoy.jpg");
+  }
+  &#violencia:hover {
+    background-image: url("https://media.giphy.com/media/E1GXxEAjIgdNSeOyoO/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
+  // recursos
+  &#recursos {
+    background-image: url("https://imaginabienestar.com/wp-content/uploads/2020/03/Portada-1.jpg");
+  }
+  &#recursos:hover {
+    background-image: url("https://media.giphy.com/media/bca845IE1doIXVJCcw/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
+  // encuentros
+  &#encuentros {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Encuentro_nacional_de_mujeres_2016.jpg/310px-Encuentro_nacional_de_mujeres_2016.jpg");
+  }
+  &#encuentros:hover {
+    background-image: url("https://media.giphy.com/media/qz7WytMkfpzQ45FVgT/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
+  // proyectos
+  &#proyectos {
+    background-image: url("https://www.lanuevacronica.com/imagenes/articulos/zaaaa.jpg");
+  }
+  &#proyectos:hover {
+    background-image: url("https://media.giphy.com/media/2VN9DJpeRWzGdZusFb/giphy.gif");
+    // background-image: url("../../../../assets/recursos_2.gif");
+  }
 }
