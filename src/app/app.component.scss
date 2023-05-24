@@ -3,7 +3,8 @@
 header {
   background: linear-gradient(to bottom, $secondary, $quaternary);
 
-  height: 6rem;
+  min-height: 6rem;
+  padding: 1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +18,9 @@ header {
   h1 {
     margin: 0;
     padding: 1rem;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 900;
+    line-height : 40px;
   }
 }
 
