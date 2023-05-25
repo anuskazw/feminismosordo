@@ -27,8 +27,8 @@ a div.image{
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
-  opacity: 0.5;
-  filter: grayscale(50%);
+  opacity: 0.3;
+  // filter: grayscale(50%);
 
   &:hover{
     background-size: cover;
