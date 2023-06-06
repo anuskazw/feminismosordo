@@ -17,6 +17,8 @@ import { ViolenciaComponent } from './components/page/violencia/violencia.compon
 import { RecursosComponent } from './components/page/recursos/recursos.component';
 import { EncuentrosComponent } from './components/page/encuentros/encuentros.component';
 import { ProyectosComponent } from './components/page/proyectos/proyectos.component';
+import { Test2Component } from './components/page/test2/test2.component';
+import { TeamComponent } from './components/page/team/team.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ProyectosComponent } from './components/page/proyectos/proyectos.compon
     ViolenciaComponent,
     RecursosComponent,
     EncuentrosComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    Test2Component,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

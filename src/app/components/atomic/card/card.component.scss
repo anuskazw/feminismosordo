@@ -11,9 +11,19 @@
   overflow: hidden;
 
   position: relative;
+  border: none;
+
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.08);
+
+  &:active {
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.08);
+  }
+  &:hover {
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.24);
+  }
 
   .titulo {
-    font-family: Roboto;
+    font-family: Lato;
     font-weight: 400;
     position: absolute;
     display: flex;
@@ -21,30 +31,4 @@
     align-items: center;
     font-size: 32px;
   }
-}
-
-.float {
-  transition: 0.5s, color 0.1s;
-  -webkit-transition: 0.5s, color 0.1s;
-  -moz-transition: 0.5s, color 0.1s;
-}
-.float:hover {
-  box-shadow: 0 8px 8px 0 gray, 0 8px 8px 0 lightgray;
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  -moz-transform: translate(0px, 5px);
-}
-
-// https://github.com/argyleink/transition.css#custom
-@keyframes wipe-in-right {
-  from {
-    clip-path: inset(0 100% 0 0);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-
-[transition-style="in:wipe:right"] {
-  animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-right both;
 }
